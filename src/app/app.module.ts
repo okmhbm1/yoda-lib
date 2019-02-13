@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { YodaTableModule } from 'projects/yoda-table/src/public_api';
 import { YodaTestComponent } from './yoda-test/yoda-test.component';
+import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { YodaFloatModule, YodaFloatService } from 'projects/yoda-float/src/public_api';
 import { YodaFloatTestComponent } from './yoda-float-test/yoda-float-test.component';
 import { YodaListModule } from 'projects/yoda-list/src/public_api';
@@ -17,6 +18,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AppComponent,
     YodaTestComponent,
     YodaFloatTestComponent,
+    ShoppingCartComponent,
   ],
   imports: [
     BrowserModule,
